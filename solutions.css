@@ -124,7 +124,7 @@
 }
 
 .ex-12-button:hover .ex-12-bottom-white {
-    animation: gira2 2s linear infinite;
+    animation: gira2 1s linear infinite;
 }
 @keyframes gira2 {
     0% {
@@ -150,7 +150,7 @@
         left: 10%;
         top: -10px;
     }
-    
+
     20% {
         left: calc(100% - 30px);
         top: -10px;
