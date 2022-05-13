@@ -79,10 +79,10 @@
 }
 
 .ex-10-icon {
-    animation: gira 1s linear infinite;
+    animation: spin 1s linear infinite;
 }
 
-@keyframes gira {
+@keyframes spin {
     0% {
         transform: rotate(1turn);
     }
@@ -90,10 +90,10 @@
 
 
 .ex-11-icon:hover {
-    animation: gira 1s linear;
+    animation: spinner 1s linear;
 }
 
-@keyframes gira {
+@keyframes spinner {
     0% {
         transform: rotate(0);
     }
@@ -106,10 +106,10 @@
 }
 
 .ex-12-button:hover .ex-12-top-white{
-    animation: gira 1s linear infinite;
+    animation: turn 1s linear infinite;
 }
 
-@keyframes gira {
+@keyframes turn {
     0%{
         left: 20%;
     }
@@ -124,9 +124,9 @@
 }
 
 .ex-12-button:hover .ex-12-bottom-white {
-    animation: gira2 1s linear infinite;
+    animation: turn2 1s linear infinite;
 }
-@keyframes gira2 {
+@keyframes turn2 {
     0% {
         right: 10%;
     }
